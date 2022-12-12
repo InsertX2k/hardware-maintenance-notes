@@ -1,4 +1,4 @@
-# How to update Dell OptiPlex 7010 BIOS?
+# How to update or downgrade Dell OptiPlex 7010 BIOS?
 
 * Download the correct BIOS version you want to flash from [Dell's Website](https://www.dell.com/support/home/en-us/product-support/product/optiplex-7010/drivers)
 * Download Rufus
@@ -69,3 +69,10 @@ O7010A01.EXE /s /f /r
 You won't need to follow any on-screen instructions as the BIOS updater program will run in silent mode which will supress all actions that need user interaction and begin BIOS flashing automatically.
 
 * Once done, your computers should reboot and your BIOS version will be flashed successfully.
+
+## Notes
+* **If you have CompuTrace enabled/Activated, You can't downgrade your BIOS version, unless you are lucky enough to have your current Intel ME firmware version older than the old BIOS version you are trying to downgrade to.**
+* ***Although upgrading BIOS from a Windows environment is possible, but I don't really recommend it because you can't predict when the OS would crash and render your BIOS corrupted.***
+* ***and No, Reflashing the same BIOS version as the current one you have or even downgrading your BIOS version won't really help you fix the issue where the on-board NIC (Network controller) requires to be disabled then enabled to work, I am telling you this because I have tried that myself and wasted a lot of time, but at the end, at least, I gained some experience.***
+
+(Fixing this issue requires a script that does that automatically that runs upon system startup, and at logon of any user, and upon waking up from a hiberate or sleep session)
