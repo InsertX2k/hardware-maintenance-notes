@@ -6,3 +6,6 @@ This folder contains necessary scripts and Task Scheduler task files to enable y
 * Open Task Scheduler and import the file `Ethernet Controller Fix.xml`
 * Make sure the task named "Network Controller Fix" is enabled.
 * Reboot your system and enjoy.
+
+## Notes:
+***The script `network_fix.bat` creates a log file stored in `C:\` named `network_controller_restart.log`, You may refer to it when the on-board NIC didn't work even after the script runs.***
