@@ -8,4 +8,4 @@ This folder contains necessary scripts and Task Scheduler task files to enable y
 * Reboot your system and enjoy.
 
 ## Notes:
-***The script `network_fix.bat` creates a log file stored in `C:\` named `network_controller_restart.log`, You may refer to it when the on-board NIC didn't work even after the script runs.***
+***The script `network_fix.bat` creates a log file stored in `C:\` named `network_controller_restart.log`, You may refer to it when the on-board NIC doesn't work even after the script runs.***
