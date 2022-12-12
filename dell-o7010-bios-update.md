@@ -75,4 +75,4 @@ You won't need to follow any on-screen instructions as the BIOS updater program 
 * ***Although upgrading BIOS from a Windows environment is possible, but I don't really recommend it because you can't predict when the OS would crash and render your BIOS corrupted.***
 * ***and No, Reflashing the same BIOS version as the current one you have or even downgrading your BIOS version won't really help you fix the issue where the on-board NIC (Network controller) requires to be disabled then enabled to work, I am telling you this because I have tried that myself and wasted a lot of time, but at the end, at least, I gained some experience.***
 
-(Fixing this issue requires a script that does that automatically that runs upon system startup, and at logon of any user, and upon waking up from a hiberate or sleep session)
+(Fixing this issue requires a script that does that automatically that runs upon system startup, and at logon of any user, and upon waking up from a hiberate or sleep session, See [this repository for the script and task scheduler configuration](https://github.com/InsertX2k/hardware-maintenance-notes/tree/main/dell-o7010-onboard-nic-windows-fix))
