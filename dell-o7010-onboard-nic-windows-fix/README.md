@@ -4,7 +4,7 @@ This folder contains necessary scripts and Task Scheduler task files to enable y
 ## How to install?
 * Copy the file `network_fix.bat` to the directory `C:\Windows`
 * Open Task Scheduler and navigate to `Task Scheduler Library\Windows` Folder then import the file `Ethernet Controller Fix (Import using task scheduler to task scheduler library-windows).xml`
-* Make sure the task named "Network Controller Fix" is enabled.
+* Make sure the task is named "Network Controller Fix" and enabled.
 * Reboot your system and enjoy.
 
 ## Notes:
